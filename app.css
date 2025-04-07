@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(85, 219, 252);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Gabungkan semua gaya h1 di sini */
+h1 {
+  color: black;
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 16px; /* Jarak kecil dengan tombol */
+  text-transform: uppercase;
+}
+
+/* Styling tombol */
+button {
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 9px 16px;
+  transition: background-color 0.3s;
+  margin: 0; /* Hilangkan jarak*
